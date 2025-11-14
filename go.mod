@@ -1,4 +1,4 @@
-module github.com/kozalosev/goSadTgBot
+module github.com/MikebangSfilya/goSadTgBot
 
 go 1.23
 

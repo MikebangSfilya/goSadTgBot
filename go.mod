@@ -1,11 +1,12 @@
 module github.com/kozalosev/goSadTgBot
 
-go 1.20
+go 1.23
+
+toolchain go1.24.3
 
 require (
 	github.com/IBM/pgxpoolprometheus v1.1.1
 	github.com/go-redis/redis/v8 v8.11.5
-	github.com/go-telegram-bot-api/telegram-bot-api/v5 v5.5.1
 	github.com/golang-migrate/migrate/v4 v4.16.2
 	github.com/jackc/pgx/v5 v5.4.3
 	github.com/jinzhu/copier v0.4.0
@@ -17,6 +18,8 @@ require (
 	github.com/thoas/go-funk v0.9.3
 	golang.org/x/exp v0.0.0-20230817173708-d852ddb80c63
 )
+
+require github.com/go-telegram-bot-api/telegram-bot-api/v5 v5.0.0-00010101000000-000000000000
 
 require (
 	dario.cat/mergo v1.0.0 // indirect

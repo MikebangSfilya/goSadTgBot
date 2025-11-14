@@ -1,6 +1,9 @@
 package app
 
 import (
+	"strings"
+	"sync"
+
 	"github.com/go-redis/redis/v8"
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 	"github.com/kozalosev/goSadTgBot/base"
@@ -8,8 +11,6 @@ import (
 	"github.com/kozalosev/goSadTgBot/metrics"
 	"github.com/kozalosev/goSadTgBot/wizard"
 	log "github.com/sirupsen/logrus"
-	"strings"
-	"sync"
 )
 
 const (

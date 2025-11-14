@@ -1,10 +1,11 @@
 package base
 
 import (
-	"github.com/kozalosev/goSadTgBot/logconst"
-	log "github.com/sirupsen/logrus"
 	"os"
 	"strconv"
+
+	"github.com/kozalosev/goSadTgBot/logconst"
+	log "github.com/sirupsen/logrus"
 )
 
 var buttonsPerRow = 6
